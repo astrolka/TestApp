@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D68CE4430D619826473197 /* libPods-TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6DE567D7573B9612895BD /* libPods-TestApp.a */; };
 		FA5822681DF5B9CB00B38D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822671DF5B9CB00B38D47 /* main.m */; };
 		FA58226B1DF5B9CB00B38D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58226A1DF5B9CB00B38D47 /* AppDelegate.m */; };
-		FA58226E1DF5B9CB00B38D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58226D1DF5B9CB00B38D47 /* ViewController.m */; };
-		FA5822711DF5B9CB00B38D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA58226F1DF5B9CB00B38D47 /* Main.storyboard */; };
 		FA5822731DF5B9CB00B38D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5822721DF5B9CB00B38D47 /* Assets.xcassets */; };
 		FA5822761DF5B9CB00B38D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5822741DF5B9CB00B38D47 /* LaunchScreen.storyboard */; };
 		FA5822811DF5B9CB00B38D47 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822801DF5B9CB00B38D47 /* TestAppTests.m */; };
 		FA58228C1DF5B9CB00B38D47 /* TestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58228B1DF5B9CB00B38D47 /* TestAppUITests.m */; };
+		FA58229E1DF5BC6500B38D47 /* AtrinityLoadImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58229D1DF5BC6500B38D47 /* AtrinityLoadImpl.m */; };
+		FA5822A11DF5CB0300B38D47 /* ViewModelServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822A01DF5CB0300B38D47 /* ViewModelServiceImpl.m */; };
+		FA5822A41DF5D00900B38D47 /* AtrinityApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822A31DF5D00900B38D47 /* AtrinityApplication.m */; };
+		FA5822A91DF5EAAF00B38D47 /* ApplicationItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822A81DF5EAAF00B38D47 /* ApplicationItemViewModel.m */; };
+		FA5822AD1DF5ED1C00B38D47 /* ApplicationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822AB1DF5ED1C00B38D47 /* ApplicationsViewController.m */; };
+		FA5822AE1DF5ED1C00B38D47 /* ApplicationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5822AC1DF5ED1C00B38D47 /* ApplicationsViewController.xib */; };
+		FA5822B11DF5EF7600B38D47 /* ApplicationsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822B01DF5EF7600B38D47 /* ApplicationsViewModel.m */; };
+		FA5822B41DF6DC2800B38D47 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822B31DF6DC2800B38D47 /* LoginViewModel.m */; };
+		FA5822B81DF6F18100B38D47 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5822B61DF6F18100B38D47 /* LoginViewController.m */; };
+		FA5822B91DF6F18100B38D47 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5822B71DF6F18100B38D47 /* LoginViewController.xib */; };
+		FA6BABD11DF81A870058089E /* ApplicationDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6BABCF1DF81A870058089E /* ApplicationDetailInfo.m */; };
+		FA6BABD51DFD33C90058089E /* AtrinityApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6BABD41DFD33C90058089E /* AtrinityApplicationInfo.m */; };
+		FA6BABD91DFD418C0058089E /* ApplicationDetailInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6BABD81DFD418C0058089E /* ApplicationDetailInfo.storyboard */; };
+		FA6BABE01DFD64030058089E /* ApplicationDetailInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6BABDF1DFD64030058089E /* ApplicationDetailInfoViewModel.m */; };
+		FA6BABE61DFDB5650058089E /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6BABE51DFDB5650058089E /* EditViewController.m */; };
+		FABCF7381DF746E600F6CBAE /* ApplicationItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FABCF7361DF746E600F6CBAE /* ApplicationItemCell.m */; };
+		FABCF7391DF746E600F6CBAE /* ApplicationItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABCF7371DF746E600F6CBAE /* ApplicationItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C98CC2668DAB4D8B08F23E5 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		64A5E53E1FF78EDB2F6AA633 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BBB6DE567D7573B9612895BD /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5822631DF5B9CB00B38D47 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5822671DF5B9CB00B38D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA5822691DF5B9CB00B38D47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA58226A1DF5B9CB00B38D47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA58226C1DF5B9CB00B38D47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA58226D1DF5B9CB00B38D47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FA5822701DF5B9CB00B38D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA5822721DF5B9CB00B38D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5822751DF5B9CB00B38D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5822771DF5B9CB00B38D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +67,38 @@
 		FA5822871DF5B9CB00B38D47 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA58228B1DF5B9CB00B38D47 /* TestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppUITests.m; sourceTree = "<group>"; };
 		FA58228D1DF5B9CB00B38D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA58229C1DF5BC6500B38D47 /* AtrinityLoadImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtrinityLoadImpl.h; sourceTree = "<group>"; };
+		FA58229D1DF5BC6500B38D47 /* AtrinityLoadImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtrinityLoadImpl.m; sourceTree = "<group>"; };
+		FA58229F1DF5CB0300B38D47 /* ViewModelServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelServiceImpl.h; sourceTree = "<group>"; };
+		FA5822A01DF5CB0300B38D47 /* ViewModelServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModelServiceImpl.m; sourceTree = "<group>"; };
+		FA5822A21DF5D00900B38D47 /* AtrinityApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtrinityApplication.h; sourceTree = "<group>"; };
+		FA5822A31DF5D00900B38D47 /* AtrinityApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtrinityApplication.m; sourceTree = "<group>"; };
+		FA5822A51DF5E3BC00B38D47 /* ViewModelServicesProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelServicesProtocol.h; sourceTree = "<group>"; };
+		FA5822A61DF5E41D00B38D47 /* ArtinityLoadProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtinityLoadProtocol.h; sourceTree = "<group>"; };
+		FA5822A71DF5EAAF00B38D47 /* ApplicationItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationItemViewModel.h; sourceTree = "<group>"; };
+		FA5822A81DF5EAAF00B38D47 /* ApplicationItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationItemViewModel.m; sourceTree = "<group>"; };
+		FA5822AA1DF5ED1C00B38D47 /* ApplicationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationsViewController.h; sourceTree = "<group>"; };
+		FA5822AB1DF5ED1C00B38D47 /* ApplicationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationsViewController.m; sourceTree = "<group>"; };
+		FA5822AC1DF5ED1C00B38D47 /* ApplicationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationsViewController.xib; sourceTree = "<group>"; };
+		FA5822AF1DF5EF7600B38D47 /* ApplicationsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationsViewModel.h; sourceTree = "<group>"; };
+		FA5822B01DF5EF7600B38D47 /* ApplicationsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationsViewModel.m; sourceTree = "<group>"; };
+		FA5822B21DF6DC2800B38D47 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		FA5822B31DF6DC2800B38D47 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		FA5822B51DF6F18100B38D47 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FA5822B61DF6F18100B38D47 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FA5822B71DF6F18100B38D47 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FA6BABCE1DF81A870058089E /* ApplicationDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDetailInfo.h; sourceTree = "<group>"; };
+		FA6BABCF1DF81A870058089E /* ApplicationDetailInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDetailInfo.m; sourceTree = "<group>"; };
+		FA6BABD31DFD33C90058089E /* AtrinityApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtrinityApplicationInfo.h; sourceTree = "<group>"; };
+		FA6BABD41DFD33C90058089E /* AtrinityApplicationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtrinityApplicationInfo.m; sourceTree = "<group>"; };
+		FA6BABD81DFD418C0058089E /* ApplicationDetailInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ApplicationDetailInfo.storyboard; sourceTree = "<group>"; };
+		FA6BABDE1DFD64030058089E /* ApplicationDetailInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDetailInfoViewModel.h; sourceTree = "<group>"; };
+		FA6BABDF1DFD64030058089E /* ApplicationDetailInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDetailInfoViewModel.m; sourceTree = "<group>"; };
+		FA6BABE41DFDB5650058089E /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		FA6BABE51DFDB5650058089E /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		FABCF7351DF746E600F6CBAE /* ApplicationItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationItemCell.h; sourceTree = "<group>"; };
+		FABCF7361DF746E600F6CBAE /* ApplicationItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationItemCell.m; sourceTree = "<group>"; };
+		FABCF7371DF746E600F6CBAE /* ApplicationItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D68CE4430D619826473197 /* libPods-TestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AC9C11DC6F4A0881010061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB6DE567D7573B9612895BD /* libPods-TestApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B40F680016FD69BE84EED191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64A5E53E1FF78EDB2F6AA633 /* Pods-TestApp.debug.xcconfig */,
+				3C98CC2668DAB4D8B08F23E5 /* Pods-TestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA58225A1DF5B9CB00B38D47 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +151,8 @@
 				FA58227F1DF5B9CB00B38D47 /* TestAppTests */,
 				FA58228A1DF5B9CB00B38D47 /* TestAppUITests */,
 				FA5822641DF5B9CB00B38D47 /* Products */,
+				B40F680016FD69BE84EED191 /* Pods */,
+				14AC9C11DC6F4A0881010061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +171,11 @@
 			children = (
 				FA5822691DF5B9CB00B38D47 /* AppDelegate.h */,
 				FA58226A1DF5B9CB00B38D47 /* AppDelegate.m */,
-				FA58226C1DF5B9CB00B38D47 /* ViewController.h */,
-				FA58226D1DF5B9CB00B38D47 /* ViewController.m */,
-				FA58226F1DF5B9CB00B38D47 /* Main.storyboard */,
+				FA58229F1DF5CB0300B38D47 /* ViewModelServiceImpl.h */,
+				FA5822A01DF5CB0300B38D47 /* ViewModelServiceImpl.m */,
+				FA58229B1DF5BC1C00B38D47 /* Models */,
+				FA58229A1DF5BC0900B38D47 /* ViewModels */,
+				FA5822991DF5BC0100B38D47 /* Views */,
 				FA5822721DF5B9CB00B38D47 /* Assets.xcassets */,
 				FA5822741DF5B9CB00B38D47 /* LaunchScreen.storyboard */,
 				FA5822771DF5B9CB00B38D47 /* Info.plist */,
@@ -140,6 +210,121 @@
 			path = TestAppUITests;
 			sourceTree = "<group>";
 		};
+		FA5822991DF5BC0100B38D47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FABCF73D1DF7826C00F6CBAE /* Login */,
+				FABCF73B1DF7470500F6CBAE /* ApplicationList */,
+				FABCF73E1DF7828400F6CBAE /* ApplicationDetailInfo */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FA58229A1DF5BC0900B38D47 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA5822A51DF5E3BC00B38D47 /* ViewModelServicesProtocol.h */,
+				FABCF73F1DF782CF00F6CBAE /* Login */,
+				FABCF7411DF782E400F6CBAE /* ApplicationList */,
+				FA6BABDA1DFD579C0058089E /* ApplicationDetailInfo */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA58229B1DF5BC1C00B38D47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA5822A61DF5E41D00B38D47 /* ArtinityLoadProtocol.h */,
+				FABCF7421DF7834300F6CBAE /* LoadingServices */,
+				FABCF7431DF7836300F6CBAE /* ApplicationItem */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FA6BABDA1DFD579C0058089E /* ApplicationDetailInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BABDE1DFD64030058089E /* ApplicationDetailInfoViewModel.h */,
+				FA6BABDF1DFD64030058089E /* ApplicationDetailInfoViewModel.m */,
+			);
+			name = ApplicationDetailInfo;
+			sourceTree = "<group>";
+		};
+		FABCF73B1DF7470500F6CBAE /* ApplicationList */ = {
+			isa = PBXGroup;
+			children = (
+				FA5822AA1DF5ED1C00B38D47 /* ApplicationsViewController.h */,
+				FA5822AB1DF5ED1C00B38D47 /* ApplicationsViewController.m */,
+				FA5822AC1DF5ED1C00B38D47 /* ApplicationsViewController.xib */,
+				FABCF7351DF746E600F6CBAE /* ApplicationItemCell.h */,
+				FABCF7361DF746E600F6CBAE /* ApplicationItemCell.m */,
+				FABCF7371DF746E600F6CBAE /* ApplicationItemCell.xib */,
+			);
+			name = ApplicationList;
+			sourceTree = "<group>";
+		};
+		FABCF73D1DF7826C00F6CBAE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA5822B51DF6F18100B38D47 /* LoginViewController.h */,
+				FA5822B61DF6F18100B38D47 /* LoginViewController.m */,
+				FA5822B71DF6F18100B38D47 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FABCF73E1DF7828400F6CBAE /* ApplicationDetailInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BABCE1DF81A870058089E /* ApplicationDetailInfo.h */,
+				FA6BABCF1DF81A870058089E /* ApplicationDetailInfo.m */,
+				FA6BABD81DFD418C0058089E /* ApplicationDetailInfo.storyboard */,
+				FA6BABE41DFDB5650058089E /* EditViewController.h */,
+				FA6BABE51DFDB5650058089E /* EditViewController.m */,
+			);
+			name = ApplicationDetailInfo;
+			sourceTree = "<group>";
+		};
+		FABCF73F1DF782CF00F6CBAE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA5822B21DF6DC2800B38D47 /* LoginViewModel.h */,
+				FA5822B31DF6DC2800B38D47 /* LoginViewModel.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FABCF7411DF782E400F6CBAE /* ApplicationList */ = {
+			isa = PBXGroup;
+			children = (
+				FA5822AF1DF5EF7600B38D47 /* ApplicationsViewModel.h */,
+				FA5822B01DF5EF7600B38D47 /* ApplicationsViewModel.m */,
+				FA5822A71DF5EAAF00B38D47 /* ApplicationItemViewModel.h */,
+				FA5822A81DF5EAAF00B38D47 /* ApplicationItemViewModel.m */,
+			);
+			name = ApplicationList;
+			sourceTree = "<group>";
+		};
+		FABCF7421DF7834300F6CBAE /* LoadingServices */ = {
+			isa = PBXGroup;
+			children = (
+				FA58229C1DF5BC6500B38D47 /* AtrinityLoadImpl.h */,
+				FA58229D1DF5BC6500B38D47 /* AtrinityLoadImpl.m */,
+			);
+			name = LoadingServices;
+			sourceTree = "<group>";
+		};
+		FABCF7431DF7836300F6CBAE /* ApplicationItem */ = {
+			isa = PBXGroup;
+			children = (
+				FA5822A21DF5D00900B38D47 /* AtrinityApplication.h */,
+				FA5822A31DF5D00900B38D47 /* AtrinityApplication.m */,
+				FA6BABD31DFD33C90058089E /* AtrinityApplicationInfo.h */,
+				FA6BABD41DFD33C90058089E /* AtrinityApplicationInfo.m */,
+			);
+			name = ApplicationItem;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5822901DF5B9CB00B38D47 /* Build configuration list for PBXNativeTarget "TestApp" */;
 			buildPhases = (
+				FFBADF14526BA0C14E4E6CA5 /* [CP] Check Pods Manifest.lock */,
 				FA58225F1DF5B9CB00B38D47 /* Sources */,
 				FA5822601DF5B9CB00B38D47 /* Frameworks */,
 				FA5822611DF5B9CB00B38D47 /* Resources */,
+				35021E64BB0CA84A6408DC55 /* [CP] Embed Pods Frameworks */,
+				BE415CFC74ED807D6ECA83AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +396,7 @@
 					FA5822621DF5B9CB00B38D47 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = XC3Q2BB5B9;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					FA58227B1DF5B9CB00B38D47 = {
@@ -249,9 +438,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6BABD91DFD418C0058089E /* ApplicationDetailInfo.storyboard in Resources */,
+				FA5822B91DF6F18100B38D47 /* LoginViewController.xib in Resources */,
+				FA5822AE1DF5ED1C00B38D47 /* ApplicationsViewController.xib in Resources */,
 				FA5822761DF5B9CB00B38D47 /* LaunchScreen.storyboard in Resources */,
+				FABCF7391DF746E600F6CBAE /* ApplicationItemCell.xib in Resources */,
 				FA5822731DF5B9CB00B38D47 /* Assets.xcassets in Resources */,
-				FA5822711DF5B9CB00B38D47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +463,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35021E64BB0CA84A6408DC55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestApp/Pods-TestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE415CFC74ED807D6ECA83AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestApp/Pods-TestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBADF14526BA0C14E4E6CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA58225F1DF5B9CB00B38D47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA58226E1DF5B9CB00B38D47 /* ViewController.m in Sources */,
+				FA6BABD51DFD33C90058089E /* AtrinityApplicationInfo.m in Sources */,
+				FA6BABE01DFD64030058089E /* ApplicationDetailInfoViewModel.m in Sources */,
+				FABCF7381DF746E600F6CBAE /* ApplicationItemCell.m in Sources */,
+				FA6BABD11DF81A870058089E /* ApplicationDetailInfo.m in Sources */,
+				FA6BABE61DFDB5650058089E /* EditViewController.m in Sources */,
+				FA5822A41DF5D00900B38D47 /* AtrinityApplication.m in Sources */,
+				FA5822A11DF5CB0300B38D47 /* ViewModelServiceImpl.m in Sources */,
 				FA58226B1DF5B9CB00B38D47 /* AppDelegate.m in Sources */,
 				FA5822681DF5B9CB00B38D47 /* main.m in Sources */,
+				FA5822B81DF6F18100B38D47 /* LoginViewController.m in Sources */,
+				FA58229E1DF5BC6500B38D47 /* AtrinityLoadImpl.m in Sources */,
+				FA5822B11DF5EF7600B38D47 /* ApplicationsViewModel.m in Sources */,
+				FA5822AD1DF5ED1C00B38D47 /* ApplicationsViewController.m in Sources */,
+				FA5822A91DF5EAAF00B38D47 /* ApplicationItemViewModel.m in Sources */,
+				FA5822B41DF6DC2800B38D47 /* LoginViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +566,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FA58226F1DF5B9CB00B38D47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA5822701DF5B9CB00B38D47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA5822741DF5B9CB00B38D47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,6 +595,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,6 +644,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -425,25 +671,33 @@
 		};
 		FA5822911DF5B9CB00B38D47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A5E53E1FF78EDB2F6AA633 /* Pods-TestApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = XC3Q2BB5B9;
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = astrolka.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		FA5822921DF5B9CB00B38D47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C98CC2668DAB4D8B08F23E5 /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = XC3Q2BB5B9;
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = astrolka.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -516,6 +770,7 @@
 				FA5822921DF5B9CB00B38D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA5822931DF5B9CB00B38D47 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +779,7 @@
 				FA5822951DF5B9CB00B38D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA5822961DF5B9CB00B38D47 /* Build configuration list for PBXNativeTarget "TestAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +788,7 @@
 				FA5822981DF5B9CB00B38D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

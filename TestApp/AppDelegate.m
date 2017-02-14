@@ -7,8 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewModel.h"
+#import "LoginViewController.h"
+#import "ViewModelServiceImpl.h"
+
 
 @interface AppDelegate ()
+
+@property(strong, nonatomic) ViewModelServiceImpl *services;
+@property(strong, nonatomic) LoginViewModel *viewModel;
+@property(strong, nonatomic) UINavigationController *navigationController;
 
 @end
 
@@ -16,7 +24,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.navigationController = [[UINavigationController alloc] init];
+    self.navigationController.navigationBar.hidden = YES;
+    
+    self.services = [[ViewModelServiceImpl alloc] initWithNavigationController:self.navigationController];
+    self.viewModel = [[LoginViewModel alloc] initWithServices:self.services];
+    LoginViewController *loginVC = [[LoginViewController alloc] initWithViewModel:self.viewModel];
+    
+    [self.navigationController pushViewController:loginVC animated:NO];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

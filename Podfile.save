@@ -1,0 +1,6 @@
+target 'TestApp' do
+	pod 'ReactiveCocoa', '5.0.0-alpha.3'
+        pod 'ReactiveObjC'
+	pod 'AFNetworking', '~> 3.0'
+end
+
